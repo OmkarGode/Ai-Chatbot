@@ -1,0 +1,25 @@
+@import 'tailwindcss';
+
+@layer utilities {
+  body {
+    font-family: 'Inter', sans-serif;
+  }
+}
+
+@layer utilities {
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+
+  /* Dark mode scrollbar */
+  .dark::-webkit-scrollbar-track {
+    background: #111827;
+  }
+
+  /* Light mode scrollbar track */
+  ::-webkit-scrollbar-track {
+    background: #f3f4f6;
+  }
+}
